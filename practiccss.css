@@ -1,0 +1,104 @@
+html{
+    background-color: beige;
+    font-size: 20px;
+    font-style: normal;
+}/*
+#author{
+    display: inline-block;
+    width:20% ;
+    vertical-align: top;
+}*/
+#heading{
+    display: inline;
+}
+main{
+    width: 50%;
+    
+    display: inline-block;
+}
+/*aside*/
+aside{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-left:20px;
+    margin-bottom: 30px;
+
+}
+.design{
+    border-top: 4px solid black;
+}
+#title input{
+    display: block;
+}
+#heading{
+    display: inline-block;
+    width: 60%;
+}
+#author{
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+}
+#title button{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin: 15px;
+}
+#title input{
+    padding: 3px;
+    font-size: 15px;
+    color: plum;
+}
+#mml input{
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+#mml label{
+    margin: 10px;
+    padding: 3px;
+}
+
+
+
+
+/*
+#bhar{
+    border: 2px solid black;
+    position: relative;
+    
+}
+#square{
+    height:200px;
+    width: 200px;
+    background-color: green;
+    
+    
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    
+}
+#outer{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position:sticky; 
+   
+    top: 20px;
+
+
+   
+}
+#bott{
+    height: 200px;
+    width: 200px;
+    background-color:cyan;
+    
+    
+    
+}*/

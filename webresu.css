@@ -1,0 +1,243 @@
+html{
+    background-color:beige;
+}
+body{
+    margin: 0px;
+    
+}
+#bodyhead{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url("pexels-hasan-albari-1229865.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.nav-hor{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+
+}
+.nav-hor li{
+    display: inline-block;
+    margin: 0px 40px 20px 0px;
+}
+.nav-hor li   a{
+    color: lavenderblush;
+    text-decoration: none;
+    transition: color 0.4s;
+    font-size: 2rem;
+}
+.nav-hor li a:hover{
+    color: dimgray;
+    border-bottom: 1px solid white;
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: beige;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    margin-top: 7rem;
+}
+/*#socialicon li{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}*/
+#socialicon li a img{
+    height: 35px;
+    width: 35px;
+    border-radius: 70%;
+}
+#socialicon li a img:hover{
+    box-shadow: 2px 2px 2px 2px rgb(243, 154, 154);
+    transition: color 0.4s;
+}
+#About{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#myimage img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#myimage{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -13vh;
+}
+#paragraph{
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#paragraph p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dimgrey;
+}
+section{
+    width: 100%;
+    /*height: 90vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+section:nth-child(2n){
+    background-color:plum ;
+}
+/*section:nth-child(2n+1){
+    background-color: ;
+}*/
+.marbot75px{
+    margin-bottom: 75px;
+}
+.heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    /*text-align: center;*/
+    /*margin: 10px auto;*/
+    font-weight: 400;
+}
+.heading span{
+    font-size: 40px;
+    color: indigo;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+    text-shadow: 20px;
+
+}
+
+.skill-dis{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+     
+}
+.skill-pro{
+    width: 150px;
+    height: 30px;
+    border-radius: 25px ;
+    background-color: grey ;
+    margin-bottom: 30px;
+}
+#percent1{
+    width: 80%;
+    height: 100%;
+    background-color: darkgoldenrod;
+    display: inline-block;
+}
+.skill-dis h4{
+    margin: auto;
+   display: inline-block;
+    padding: 5px;
+}
+#percent2{
+    width: 80%;
+    height: 100%;
+    background-color:darkseagreen;
+    display: inline-block;
+}
+#percent3{
+    width: 80%;
+    height: 100%;
+    background-color:indianred;
+    display: inline-block;
+}
+.timeline{
+    position: relative;
+    width: 75%;
+   /* border: 2px solid black;*/
+}
+.time-box{
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black;
+}
+.time-box:nth-child(2n){
+   left: 53%;
+}
+.timediv{
+    height: 80%;
+    border: 2px dashed cornflowerblue;
+    width: 0%;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+
+}
+.timetravel{
+    position: sticky;
+    top: 5px;
+    transform: rotate(90deg);
+}
+.time-box:nth-child(2n+1):after{
+    content:'' ;
+    right: -52px;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: chocolate;
+    position: absolute;
+    top: 25%;
+}
+.time-box:nth-child(2n):after{
+    content:'' ;
+    left: -41px;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: chocolate;
+    position: absolute;
+    top: 25%;
+}
+#sub{
+    align-items: center;
+}
+#Contact{
+    border: 2px solid black;
+    background-image: url("pexels-felix-mittermeier-1146134.jpg" ); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    opacity: 0.9;
+    
+}
+
+
+#Contact div{
+    margin: 10px;
+}
+#sec-contact h1{
+    color: coral;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+#sec-contact{
+    background-color: darkgray;
+    border: 5px;
+    width: 250px;
+}
+#Contact section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
